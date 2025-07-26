@@ -1,45 +1,0 @@
-<!DOCTYPE html>
-<html lang="ar">
-<head>
-  <meta charset="UTF-8">
-  <title>تحذير أمني</title>
-  <style>
-    #advice {
-      display: none;
-      background-color: #fff3cd;
-      border: 1px solid #ffeeba;
-      padding: 15px;
-      margin: 20px;
-      border-radius: 10px;
-      font-family: 'Arial', sans-serif;
-    }
-  </style>
-</head>
-<body>
-
-<h2>مرحبًا بك</h2>
-
-<div id="advice">
-  <h3>لا تقلق، هذا مجرد مثال توعوي 👇</h3>
-  <ul>
-    <li>❗ لا تضغط على روابط مجهولة المصدر.</li>
-    <li>🔐 تأكد أن الموقع يبدأ بـ <strong>https://</strong>.</li>
-    <li>🛡️ استخدم برامج حماية محدثة دائمًا.</li>
-    <li>📧 لا تفتح مرفقات البريد الإلكتروني من مصادر غير معروفة.</li>
-    <li>✅ درّب نفسك على التحقق من صحة الروابط قبل النقر.</li>
-  </ul>
-</div>
-
-<script>
-  // ننتظر تحميل الصفحة بالكامل
-  window.addEventListener('load', function () {
-    // عرض التنبيه
-    alert("🚨 تم اختراقك بنجاح!");
-
-    // بعد التنبيه، نظهر النصائح
-    document.getElementById("advice").style.display = "block";
-  });
-</script>
-
-</body>
-</html>
